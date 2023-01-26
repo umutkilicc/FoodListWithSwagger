@@ -1,4 +1,4 @@
-package com.javaapi;
+package com.FoodListSwagger;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Employees API", version = "2.0", description = "Employees Information"))
+@OpenAPIDefinition(info = @Info(title = "FoodList API", version = "1.0", description = "Food Menu Information"))
 public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
